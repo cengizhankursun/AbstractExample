@@ -16,7 +16,7 @@ namespace ConsoleApp23
             {
                 return KacBirim * kilometre;
             }
-            class HizliKargo : Kargo
+            class HizliKargo : Kargo // Türetilmiş sınıf oluşturduk.
             {
                 public override int KacBirim => 5;
                 public override string KargoSuresiGoster()
@@ -24,7 +24,7 @@ namespace ConsoleApp23
                     return "Hızlı kargo teslimat süresi : 1-2 Gün.";
                 }
             }
-            class StandartKargo : Kargo
+            class StandartKargo : Kargo // Türetilmiş sınıf oluşturduk.
             {
                 public override int KacBirim => 2;
                 public override string KargoSuresiGoster()
@@ -32,7 +32,7 @@ namespace ConsoleApp23
                     return "Standart kargo teslimat süresi : 3-5 Gün.";
                 }
             }
-            class EkonomikKargo : Kargo
+            class EkonomikKargo : Kargo // Türetilmiş sınıf oluşturduk.
             {
                 public override int KacBirim => 1;
                 public override string KargoSuresiGoster()
