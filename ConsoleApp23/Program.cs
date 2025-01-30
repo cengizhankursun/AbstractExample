@@ -10,9 +10,9 @@ namespace ConsoleApp23
     {
         abstract class Kargo
         {
-            public abstract int KacBirim { get; }
+            public abstract int KacBirim { get; } // Burada birim belirtiliyor !
             public abstract string KargoSuresiGoster();
-            public int KargoUcretiHesaplama(int kilometre)
+            public int KargoUcretiHesaplama(int kilometre) // Burada kilometre üzerinden hesaplama yapılıyor !
             {
                 return KacBirim * kilometre;
             }
