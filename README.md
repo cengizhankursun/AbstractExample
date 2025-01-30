@@ -1,1 +1,1 @@
-# ConsoleApp23
+Abstract konusunda basit kargo uygulaması
